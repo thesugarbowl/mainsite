@@ -167,7 +167,7 @@ body {
 }
 
 .history {
-  width: 80%;
+  width: 95%;
   margin: auto;
   margin-bottom: 60px;
 }
@@ -178,7 +178,7 @@ body {
 }
 
 .belgian-beer {
-  width: 80%;
+  width: 95%;
   margin: auto;
   margin-bottom: 60px;
 }
@@ -188,13 +188,13 @@ body {
 }
 
 .contact-us {
-  width: 80%;
+  width: 95%;
   margin: auto;
   margin-bottom: 60px;
 }
 
 .artist {
-  width: 80%;
+  width: 95%;
   margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -222,7 +222,7 @@ body {
 .hours-operation-text {
   margin: auto;
   margin-bottom: 15px;
-  width: 65%;
+  width: 70%;
   padding: 10px;
 }
 
@@ -317,7 +317,7 @@ a:visited {
 }
 
 .contact-us {
-  width: 90%;
+  width: 95%;
   margin: auto;
   margin-bottom: 60px;
 }
@@ -394,7 +394,7 @@ footer {
 
 @media (max-width:519px) {
   #tripAdvisor {
-    margin-top:15px;
+    margin-top:20px;
   }
   #zomato {
     margin-top:10px;
