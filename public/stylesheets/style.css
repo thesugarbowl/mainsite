@@ -393,6 +393,9 @@ footer {
 }
 
 @media (max-width:519px) {
+  #twitter {
+    margin-bottom:5px;
+  }
   #tripadvisor {
     margin-top:20px;
   }
