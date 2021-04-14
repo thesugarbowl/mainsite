@@ -1,2 +1,2 @@
-# mainsite
-Main website for the restaurant Sugarbowl
+# Sugarbowl Website
+Main website for the restaurant Sugarbowl.
