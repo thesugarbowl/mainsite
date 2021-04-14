@@ -394,16 +394,16 @@ footer {
 
 @media (max-width:519px) {
   #facebook {
-    margin-bottom:5px;
+    margin-bottom:10px;
   }
   #twitter {
-    margin-bottom:5px;
+    margin-bottom:10px;
   }
   #instagram {
-    margin-bottom:5px;
+    margin-bottom:10px;
   }
   #yelp {
-    margin-bottom:5px;
+    margin-bottom:10px;
   }
 }
 
