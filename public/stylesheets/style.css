@@ -393,11 +393,11 @@ footer {
 }
 
 @media (max-width:519px) {
-  #tripAdvisor {
+  #tripadvisor {
     margin-top:20px;
   }
   #zomato {
-    margin-top:7px;
+    margin-top:4px;
   }
 }
 
