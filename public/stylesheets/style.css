@@ -387,14 +387,14 @@ footer {
   .contact-us-column {
     width: 100%;
   }
-  .hero-text {
+  .top-banner-text {
     margin-top: 130px;
   }
 }
 
 @media (max-width:519px) {
   #tripAdvisor {
-    margin-top:10px;
+    margin-top:15px;
   }
   #zomato {
     margin-top:10px;
