@@ -393,14 +393,17 @@ footer {
 }
 
 @media (max-width:519px) {
+  #facebook {
+    margin-bottom:5px;
+  }
   #twitter {
     margin-bottom:5px;
   }
-  #tripadvisor {
-    margin-top:20px;
+  #instagram {
+    margin-bottom:5px;
   }
-  #zomato {
-    margin-top:4px;
+  #yelp {
+    margin-bottom:5px;
   }
 }
 
