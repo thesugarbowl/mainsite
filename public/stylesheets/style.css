@@ -396,19 +396,59 @@ footer {
   .hours-operation-text {
     width: 90%;
   }
+  .the-family {
+    margin-bottom: 60px;
+  }
   .family-description {
     width: 100%;
   }
-  .artist {
+  .family-row {
+    width: 90%;
+    margin: auto;
+  }
+  .family-column {
     width: 100%;
+  }
+  .about-us {
+    margin-bottom: 70px;
   }
   .history {
     width: 100%;
   }
+  .history-row {
+    width: 90%;
+    margin: auto;
+  }
+  .history-column {
+    width: 100%;
+  }
+  .lamb-burger {
+    margin-bottom: 70px;
+  }
   .belgian-beer {
     width: 100%;
   }
+  .belgian-row {
+    width: 90%;
+    margin: auto;
+  }
+  .belgian-column {
+    width: 100%;
+  }
+  .contact-us-banner {
+    margin-bottom: 70px;
+  }
   .contact-us {
+    width: 100%;
+  }
+  .contact-us-row {
+    width: 90%;
+    margin: auto;
+  }
+  .contact-us-column {
+    width: 100%;
+  }
+  .artist {
     width: 100%;
   }
 }
