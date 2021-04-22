@@ -1,11 +1,162 @@
-/* body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* Updater CSS */
+.content {
+  width: 100%;
+  margin: auto;
+  overflow-x: hidden;
 }
 
-a {
-  color: #00B7FF;
-} */
+#navbar-mainsite {
+  position: relative;
+  top: 5%;
+}
+
+#navbar-nav-mainsite {
+  color: white;
+  opacity: 1;
+  text-align: justify;
+}
+
+#nav-link-mainsite {
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+#bannerSugarbowl {
+  width: 100%;
+}
+
+#bannerBeverages {
+  background-image: url('../images/beverages.jpg');
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#bannerBeverages:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.1);
+}
+
+#bannerFood {
+  background-image: url('../images/food.jpg');
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#bannerFood:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.1);
+}
+
+#bannerOffsales {
+  background-image: url('../images/offsales.jpg');
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#bannerOffsales:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.1);
+}
+
+.banner-text {
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.accordion {
+  width: 98%;
+  margin: auto;
+}
+
+.accordion-button {
+  display:block;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#leaf {
+  height: 25px;
+  width: 25px;
+}
+
+#foodImage {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.left-align {
+  text-align:left;
+}
+
+#update-page {
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.updateText {
+  display: inline-block;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.availability {
+  display: inline;
+  margin-left: 6px;
+  color: #e60000;
+  font-weight: bold;
+}
+
+@media (max-width:991px) {
+  #sugarbowl-logo {
+    width:150px;
+  }
+}
+
+/* Mainsite CSS */
 
 @font-face {
   font-family: 'Roboto';
@@ -34,7 +185,7 @@ body {
 }
 
 .sweetest-place {
-  background-image: url('/images/canopy.jpeg');
+  background-image: url('../images/canopy.jpeg');
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,7 +204,7 @@ body {
 }
 
 .welcome {
-  background-image: url('/images/specials-wall.jpeg');
+  background-image: url('../images/specials-wall.jpeg');
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
@@ -72,7 +223,7 @@ body {
 }
 
 .the-family {
-  background-image: url('/images/outside.jpeg');
+  background-image: url('../images/outside.jpeg');
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,7 +242,7 @@ body {
 }
 
 .about-us {
-  background-image: url('/images/cinnBun.jpeg');
+  background-image: url('../images/cinnBun.jpeg');
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
@@ -110,7 +261,7 @@ body {
 }
 
 .lamb-burger {
-  background-image: url('/images/lamb-burger.jpeg');
+  background-image: url('../images/lamb-burger.jpeg');
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
@@ -129,7 +280,7 @@ body {
 }
 
 .contact-us-banner {
-  background-image: url('/images/hummus-pita.jpeg');
+  background-image: url('../images/hummus-pita.jpeg');
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -148,7 +299,7 @@ body {
 }
 
 .artwork-banner {
-  background-image: url('/images/wall_art_2_edited.jpg');
+  background-image: url('../images/wall_art_2_edited.jpg');
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -329,16 +480,16 @@ a:visited {
   margin: 0;
 }
 
-footer {
+.footer-mainsite {
   background-color: rgb(53,46,41);
   color: white;
-  padding: 10px 20px 90px 20px;
+  padding: 5px 0px 40px 0px;
 }
 
 .footer-column {
   float: left;
   width: 50%;
-  padding: 10px;
+  padding-top: 15px;
 }
 
 .footer-row:after {
@@ -455,6 +606,17 @@ footer {
   .artist {
     width: 100%;
   }
+  #update-page {
+    width: 95%;
+  }
+}
+
+#update-menu-button {
+  color: white;
+}
+
+.login-form {
+  width: 375px;
 }
 
 @media (max-width:519px) {
@@ -473,6 +635,9 @@ footer {
 }
 
 @media (min-width: 601px) {
+  #update-title {
+    font-size: 40px;
+  }
   h1 {
     font-size: 70px;
   }

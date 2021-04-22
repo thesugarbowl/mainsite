@@ -1,2 +1,3 @@
 # Sugarbowl Website
-Main website for the restaurant Sugarbowl.
+
+Website for the restaurant Sugarbowl.

@@ -25,10 +25,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="https://sugarbowl-menu.herokuapp.com/menu/mainsite"><h3 id="nav-link">menu</h3></a>
+              <a class="nav-link" href="menu/mainsite"><h3 id="nav-link">menu</h3></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="artwork"><h3 id="nav-link">artwork</h3></a>
+              <a class="nav-link" href="#"><h3 id="nav-link">artwork</h3></a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="about-us"><h3 id="nav-link">about us</h3></a>
@@ -58,7 +58,7 @@
     </div>
 
     <!--footer-->
-    <footer>
+    <footer class="footer-mainsite">
       <div class='row footer-row'>
         <div class='column footer-column'>
           <div class='icons'>
@@ -89,6 +89,13 @@
         </div>
       </div>
     </footer>
+
+    <div class="text-center" style="color: white; background-color:rgb(53,46,41); padding-bottom:10px; margin-bottom:0px;"><small><p id="year"></p></small></div>
+
+    <script>
+      var year = new Date().getFullYear();
+      document.getElementById('year').innerHTML = year + ' Sugarbowl';
+    </script>
     
     <!--Leaflet JavaScript-->
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
